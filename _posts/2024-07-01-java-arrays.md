@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Java - Arrays
-categories: [Java] [Programming Languages]
+categories: [Java, Programming Languages]
 ---
 
 Java arrays are the ancestors of ArrayLists...
 
 * Table of content
 {:toc}
+
+## Arrays
 
 Unlike the newer and younger ArrayLists, arrays come with Java by default. You don't have to take the trouble of importing, creating object and then getting it work!
 
