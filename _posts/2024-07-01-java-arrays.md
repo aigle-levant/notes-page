@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java - Arrays
-categories: [Java, Programming Languages]
+categories: [Java]
 ---
 
 Java arrays are the ancestors of ArrayLists...

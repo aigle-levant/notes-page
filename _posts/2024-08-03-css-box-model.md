@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS - Box Model
-categories: [CSS, Programming Languages, Web dev]
+categories: [CSS]
 ---
 
 Box model is one of the most fundamental topics in CSS. Let's learn it...

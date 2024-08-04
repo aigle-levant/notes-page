@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS - Flex-box
-categories: [CSS, Programming Languages, Web dev]
+categories: [CSS]
 ---
 
 ``display: flex`` is a frequently used property in CSS. Here's how we learn to use it...
@@ -39,7 +39,40 @@ So, you can have a parent element as a flex container then use its children as f
 
 We have rules to modify our flex container :
 
-``justify-content`` and ``align-items`` : Take care of content alignment
+#### flex-direction
+
+Sets direction of flex container
+
+* ``row`` : Content is arranged as a row
+* ``column`` : Content is arranged as a column
+* ``row-reverse`` : Content is arranged as row and reversed
+* ``column-reverse`` : Content is arranged as column and reversed
+
+#### order
+
+Sets the order in which the item appears in row or column
+
+#### flex-wrap
+
+* **``wrap``** : Renders flex items as a grid from top to bottom; they won't go out of a grid
+* **``wrap-reverse``** : Reverse of ``wrap``; items are wrapped bottom to top.
+* **``no-wrap``** : All flex items will be on a single line.
+
+#### Shorthand flex
+
+**``flex``** is actually a shorthand for the following properties :
+
+* ``flex-grow`` : Grow a certain amount from base size
+* ``flex-shrink`` : Shrink a certain amount from base size
+* ``flex-basis`` : Base size
+
+When we say ``flex: 1;``, we actually mean ``flex: 1 1 0;``. 1 here means the items are handled evenly.
+
+> ``flex-auto`` stands for ``flex: 1 1 auto``.
+
+#### Alignment
+
+**``justify-content``** and **``align-items``** take care of content alignment.
 
 * ``flex-start`` : Content goes to left-end
 * ``flex-end`` : Content goes to right-end
@@ -47,10 +80,6 @@ We have rules to modify our flex container :
 * ``space-around`` : Content is separated from other content using spaces; doesn't touch the very border of box
 * ``space-between`` : Content is separated from other content using spaces; will touch border of box
 
-``flex-start`` and ``flex-end`` have different meanings in ``justify-content`` and ``align-items``.The former means content goes to upper-end while the latter means content goes to lower-end.
-{:.note}
+> **``flex-start``** and **``flex-end``** have different meanings in ``justify-content`` and ``align-items``.The former means content goes to upper-end while the latter means content goes to lower-end.
 
-``flex-direction`` : Sets direction of flex container
-
-* ``row`` : Content is arranged as a row
-* ``column`` : Content is arranged as a column
+``gap`` : Adds space between flex items
