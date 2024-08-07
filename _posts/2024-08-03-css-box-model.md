@@ -28,14 +28,35 @@ A box has three parts : content, padding, margin. The border of a box plays a ma
 To increase the space between the margin and padding, we simply increase the border.
 
 If there are 2 box margins right next to each other, the **largest margin will have priority**. This is because the smaller margin collapses into the larger one.
-{:.note}
+
+### `display` property
+
+This property decides two things :
+
+* Whether an element will be treated as a block or inline block.
+* The layout that'll used for its children.
+
+#### Outer and inner display types
+
+Let's say we have a paragraph tag and an `a` tag with borders :
+
+![alt text](image.png)
+
+Let's try using our ``display: box``...
+
+![alt text](image-1.png)
+
+...and ``display: inline-block``.
+
+![alt text](image-2.png)
+
+Notice how the box
 
 ### Manipulating the box
 
 We can set the height and width of our element using ``height`` and ``width`` properties.
 
-``inline-size`` and ``block-size`` properties are the other names of ``width`` and ``height``
-{:.note}
+> ``inline-size`` and ``block-size`` properties are the other names of ``width`` and ``height``
 
 A thing to note is that padding and border account into the height and width of the element. So if our box has the proportions 100px x 100px and our padding is at 20 px, it calculates it like this :
 
