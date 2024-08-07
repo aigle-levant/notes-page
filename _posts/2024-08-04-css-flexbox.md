@@ -15,13 +15,13 @@ categories: [CSS]
 
 It is a way to arrange items into rows and columns that **flex** based on certain rules.
 
-![alt text](/images/img11.png)
+![alt text](..\images\img11.png)
 
 > Flex : Growing or shrinking
 
 It is a plethora of properties that you use to arrange things. These properties thus go in 2 places :
 
-![alt text](/images/img13.png)
+![alt text](..\images\img13.png)
 
 * **Flex container** : Element with ``display: flex`` property in it
 * **Flex item** : Element inside a flex container
@@ -31,11 +31,11 @@ An element can be both a flex container and a flex item at the same time.
 
 So, you can have a parent element as a flex container then use its children as flex items. If we want to make changes in the flex items, we'd simply use our flex container.
 
-![alt text](/images/img10.png)
+![alt text](..\images\img10.png)
 
 ### Manipulating the flex-box
 
-![alt text](/images/img12.png)
+![alt text](..\images\img12.png)
 
 We have rules to modify our flex container :
 

@@ -62,7 +62,7 @@ public class neg
 }
 ```
 
-![alt text](/images/img1.png)
+![alt text](..\images\image.png)
 
 Why did we get an exception when all's going well? Oh well, all's *not* going well, it seems.
 

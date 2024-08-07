@@ -15,11 +15,11 @@ Box model is one of the most fundamental topics in CSS. Let's learn it...
 
 Everything in a website is a **box**. Sometimes they have boxes nested in them and at times they sit next to each other.
 
-![alt text](/images/img4.png)
+![alt text](..\images\img4.png)
 
 A box has three parts : content, padding, margin. The border of a box plays a major role here.
 
-![alt text](/images/img5.png)
+![alt text](..\images\img5.png)
 
 * **Content** is simply the stuff inside the box.
 * **Padding** is the space between content and box's borders.
@@ -40,21 +40,38 @@ This property decides two things :
 
 Let's say we have a paragraph tag and an `a` tag with borders :
 
-![alt text](image.png)
+![alt text](..\images\img14.png)
 
 Let's try using our ``display: box``...
 
-![alt text](image-1.png)
+![alt text](..\images\img15.png)
 
 ...and ``display: inline-block``.
 
-![alt text](image-2.png)
+![alt text](..\images\img16.png)
 
-Notice how the box
+Notice how the second block is stretched to the length of the first one in the first example. And, in the second one, the two of them are arranged next to each other.
+
+You'd often see items arranged like this when a page's using ``display: inline-block`` :
+
+![alt text](..\images\img17.png)
+[Image credit : https://www.shecodes.io/]
+
+Now we have two more types :
+
+``display: flex`` : A famous display layout that has many modifications.
+
+![alt text](..\images\img8.png)
+
+``display: grid`` : Arranges elements like a stack
+
+![alt text](..\images\img9.png)
 
 ### Manipulating the box
 
 We can set the height and width of our element using ``height`` and ``width`` properties.
+
+Properties that also affect content are ``inline-size`` and ``block-size``. These let us do horizontal and vertical text blocks.
 
 > ``inline-size`` and ``block-size`` properties are the other names of ``width`` and ``height``
 
@@ -65,6 +82,22 @@ A thing to note is that padding and border account into the height and width of 
 > Width : 100 px + 10 [padding left] + 10 [padding right] + 40 px [border] = 160 px
 
 So our element's dimensions are actually 160px x 160px.
+
+#### Margin collapsing
+
+Sometimes, when we've two elements *really* close to each other, we'd see various results based on their margins :
+
+![alt text](..\images\img18.png)
+
+If margins of both the elements are **positive**, they merge into a single margin. The size of this common margin is equal to the largest individual margin.
+
+![alt text](..\images\img19.png)
+
+If margins of both the elements are **negative**, they collapse and only the smallest margin value remains.
+
+![alt text](..\images\img20.png)
+
+If we've a **positive margin and a negative margin**, the value of negative margin's subtracted from that of positive margin.
 
 #### Alternate box model
 
@@ -81,30 +114,3 @@ When we use ``box-sizing: border-box``, the actual dimensions of the content is 
 > Width = 100 px
 > 
 > Actual width of element : 100 - 60 = 40 px
-
-### Display types of a box
-
-Boxes have an inner display type as well as an outer display type. We can set it using ``display`` property.
-
-* Outer type determines the element's position in flow layout
-* Inner type sets the layout of child elements
-
-`display: block;` : Arranges the elements like blocks in a row.
-
-![alt text](/images/img6.png)
-
-The box breaks into a new line; width and height properties are now respected.
-
-``display: inline-block`` : The parent element hugs the children elements
-
-![alt text](/images/img7.png)
-
-Padding, borders and margins will apply. However, only the left and right portions will cause other inline boxes to move away.
-
-``display: flex`` : A famous display layout that has many modifications.
-
-![alt text](/images/img8.png)
-
-``display: grid`` : Arranges elements like a stack
-
-![alt text](/images/img9.png)
