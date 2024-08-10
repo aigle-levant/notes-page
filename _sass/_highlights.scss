@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .highlight {
   background-color: #1e1c3f;
   padding: 7px 7px 7px 10px;
@@ -7,12 +9,12 @@
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-  color: #d8d8d8;
+  font-family:'Roboto', monospace;
+  color: #282A36;
 }
 
 .highlighter-rouge { 
-  background-color: #FAFAFA; 
+  background-color: #282A36; 
   color: #FF554A; 
 }
 
