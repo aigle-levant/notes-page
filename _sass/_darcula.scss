@@ -1,17 +1,21 @@
+@import url('https://use.typekit.net/qmv5mjh.css');
+
 .highlight {
     background-color: #1e1c3f;
+    font-family:'source-code-pro', monospace;
     padding: 7px 7px 7px 10px;
     overflow: auto;
     font-size: 95%;
 }
 
 code {
-    font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+    font-family:'source-code-pro', monospace;
     color: #d8d8d8;
 }
 
 .highlighter-rouge { 
     background-color: #FAFAFA; 
+    font-family:'source-code-pro', monospace;
     color: #FF554A; 
     font-size: 16px;
 }

@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://use.typekit.net/qmv5mjh.css');
 
+.highlight , .highlighter-rouge, code {
+  font-family: 'source-code-pro', monospace;
+}
 .highlight {
   background-color: #1e1c3f;
   padding: 7px 7px 7px 10px;
@@ -9,7 +13,6 @@
 }
 
 code {
-  font-family:'Roboto', monospace;
   color: #282A36;
 }
 
