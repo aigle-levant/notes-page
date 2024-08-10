@@ -316,7 +316,7 @@ p > img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: 'Playwrite AR', serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -330,6 +330,7 @@ p > img {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
+  font-family: 'Noto Sans', monospace;
   font-size: 16px;
 
   @include mobile {
