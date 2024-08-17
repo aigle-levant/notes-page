@@ -196,7 +196,7 @@ Finally, we'd use the ``<tfoot>`` tag to create our footer. This is where we add
   </table>
 ```
 
-![alt text](../image/img28.png)
+![alt text](../images/img28.png)
 
 ### Styling our table
 

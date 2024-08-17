@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 650;
   line-height: 1.5;
   margin: 1em 0 15px;
-  padding: 0;
+  padding: 20px;
 
   @include mobile {
     line-height: 1.4;
@@ -182,11 +182,11 @@ span[data-pullquote]:before {
 }
 
 a {
-  color: $blue;
+  color: white;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: white;
   }
 }
 
