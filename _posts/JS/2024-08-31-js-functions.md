@@ -252,3 +252,51 @@ console.log(line());
 
 //Playing : Bad Blood by Bastille
 ```
+
+### Functions are objects
+
+> Refer [my notes on OOP in JS](2024-09-07-js-oop.md)
+
+Wait what?!
+
+Yes. The title is right. Functions are, indeed, object. Long short short, functions belong to a category of data types called reference-type. This category includes :
+
+* Objects
+* Arrays
+
+Since any value that isn't a primitive is considered an object [because, duh, everything resembles an object if you look at its template], functions are also objects. They're specifically called **callable objects** for this reason.
+
+Let's say we've this function :
+
+```js
+function caller(name, phone)
+{
+    this.name = name;
+    this.phone = phone;
+
+    this.dial = function(){
+        console.log(this.phone + "\nCalling " + this.name + "...");
+    }
+}
+```
+
+Now let's head over to the console window and try out some commands using this function :
+
+```js
+caller.name //"caller"
+caller.length //2
+caller.call({}, "Mozart", undefined);
+caller.apply({}, ["This", "That", "Everyone"], [2, 2, undefined]);
+```
+
+> Notice the dot [.] operator being used here? This is because functions are objects.
+
+Alright, now let me explain what each does :
+
+`functionName.name` simply returns the name of the function.
+
+`functionName.length` returns the number of arguments passed in a function.
+
+`functionName.call()` is used to create objects. Be warned, this object may not have a name!
+
+`functionName.apply()` is used to do the same thing as above, except with arrays.

@@ -97,3 +97,7 @@ console.log("Final score: ");
 console.log("Human: " + humanScore + "\nComputer: " + computerScore);
 
 ```
+
+### Stopwatch
+
+
