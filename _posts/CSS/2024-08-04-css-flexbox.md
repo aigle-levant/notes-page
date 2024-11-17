@@ -49,7 +49,7 @@ Let's say we've this page with the famous placeholder text...
 }
 ```
 
-![alt text](..\images\img48.png)
+![alt text](../../images/img48.png)
 
 We wish to arrange these three boxes horizontally rather than vertically. What would we do?
 
@@ -62,7 +62,7 @@ We'd use ``display: flex`` on the parent container.
 }
 ```
 
-![alt text](..\images\img50.png)
+![alt text](../../images/img50.png)
 
 Great! We've got the direction changed, but the containers look as if they were merged as one and we want them separated.
 
@@ -76,7 +76,7 @@ Great! We've got the direction changed, but the containers look as if they were 
 
 Adding gap to the parent container [the `<section>`]makes the children [the `<article>`] maintain a gap of 1rem between each box.
 
-![alt text](..\images\img51.png)
+![alt text](../../images/img51.png)
 
 If we want the same arrangement as before, we'd use `flex-direction` to change the direction of flex.
 
@@ -89,7 +89,7 @@ If we want the same arrangement as before, we'd use `flex-direction` to change t
 }
 ```
 
-![alt text](..\images\img52.png)
+![alt text](../../images/img52.png)
 
 > By default, `flex-direction` is set to `row`. This is the direction observed when you first set an element to `display: flex`.
 
@@ -108,19 +108,19 @@ In flex, we have two main things to consider :
 * **Flex container** : Element with ``display: flex`` property in it
 * **Flex item** : Element inside a flex container
 
-![alt text](..\images\img13.png)
+![alt text](../../images/img13.png)
 
 If we want to make changes in the flex items, we'd simply use our flex container.
 
 > An element can be both a flex container and a flex item at the same time.
 
-![alt text](..\images\img10.png)
+![alt text](../../images/img10.png)
 
 ### Flex-axis
 
 When an element is laid out as an flex item, they consider 2 axes :
 
-![alt text](..\images\img53.png)
+![alt text](../../images/img53.png)
 
 **Main axis** : Axis running in the direction of the flex item [as a row or as a column].
 
@@ -147,7 +147,7 @@ When an element is laid out as an flex item, they consider 2 axes :
 }
 ```
 
-![alt text](..\images\img54.png)
+![alt text](../../images/img54.png)
 
 ``column-reverse`` gives you the same effect as ``flex-direction: column``, except with the last item being first [and first being last, etc.].
 
@@ -155,7 +155,7 @@ When an element is laid out as an flex item, they consider 2 axes :
 
 Let's say we add some more items to our container.
 
-![alt text](..\images\img55.png)
+![alt text](../../images/img55.png)
 
 The layout doesn't look too pleasing; the items are awkwardly jammed against each other and risk overflowing their container.
 
@@ -180,7 +180,7 @@ One thing we could do is to adjust the items to 'wrap' around the page. We can a
 }
 ```
 
-![alt text](..\images\img56.png)
+![alt text](../../images/img56.png)
 
 We also use `flex` property in the `<article>` elements to set the width of the item to at least 1rem.
 
@@ -205,7 +205,7 @@ Alignment in flex happens according to the main axis and the cross axis.
 
 Let's illustrate this with an example. Take a look at this button.
 
-![alt text](..\images\img58.png)
+![alt text](../../images/img58.png)
 
 We want this button to be nicely centered. Remembering that by default, `flex-direction` is set to `row`, we have to modify its main axis.
 
@@ -219,7 +219,7 @@ We want this button to be nicely centered. Remembering that by default, `flex-di
 }
 ```
 
-![alt text](..\images\ig59.png)
+![alt text](../../images/ig59.png)
 
 Now comes a common problem faced by devs - how to center a div?
 

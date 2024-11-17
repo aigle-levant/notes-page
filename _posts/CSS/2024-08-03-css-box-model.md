@@ -15,11 +15,11 @@ Box model is one of the most fundamental topics in CSS. Let's learn it...
 
 Everything in a website is a **box**. Sometimes they have boxes nested in them and at times they sit next to each other.
 
-![alt text](..\images\img4.png)
+![alt text](../../images/img4.png)
 
 A box has three parts : content, padding, margin. The border of a box plays a major role here.
 
-![alt text](..\images\img5.png)
+![alt text](../../images/img5.png)
 
 * **Content** is simply the stuff inside the box.
 * **Padding** is the space between content and box's borders.
@@ -40,32 +40,32 @@ This property decides two things :
 
 Let's say we have a paragraph tag and an `a` tag with borders :
 
-![alt text](..\images\img14.png)
+![alt text](../../images/img14.png)
 
 Let's try using our ``display: box``...
 
-![alt text](..\images\img15.png)
+![alt text](../../images/img15.png)
 
 ...and ``display: inline-block``.
 
-![alt text](..\images\img16.png)
+![alt text](../../images/img16.png)
 
 Notice how the second block is stretched to the length of the first one in the first example. And, in the second one, the two of them are arranged next to each other.
 
 You'd often see items arranged like this when a page's using ``display: inline-block`` :
 
-![alt text](..\images\img17.png)
+![alt text](../../images/img17.png)
 [Image credit : https://www.shecodes.io/]
 
 Now we have two more types :
 
 ``display: flex`` : A famous display layout that has many modifications.
 
-![alt text](..\images\img8.png)
+![alt text](../../images/img8.png)
 
 ``display: grid`` : Arranges elements like a stack
 
-![alt text](..\images\img9.png)
+![alt text](../../images/img9.png)
 
 ### Manipulating the box
 
@@ -87,15 +87,15 @@ So our element's dimensions are actually 160px x 160px.
 
 Sometimes, when we've two elements *really* close to each other, we'd see various results based on their margins :
 
-![alt text](..\images\img18.png)
+![alt text](../../images/img18.png)
 
 If margins of both the elements are **positive**, they merge into a single margin. The size of this common margin is equal to the largest individual margin.
 
-![alt text](..\images\img19.png)
+![alt text](../../images/img19.png)
 
 If margins of both the elements are **negative**, they collapse and only the smallest margin value remains.
 
-![alt text](..\images\img20.png)
+![alt text](../../images/img20.png)
 
 If we've a **positive margin and a negative margin**, the value of negative margin's subtracted from that of positive margin.
 

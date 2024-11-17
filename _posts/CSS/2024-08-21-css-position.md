@@ -21,7 +21,7 @@ The default position for every element is ``position: static``.
 
 Suppose we have made a page for displaying the lyrics of a song :
 
-![alt text](../images/img45.png)
+![alt text](../../images/img45.png)
 
 [Props to you if you recognise the lyrics!]
 
@@ -97,7 +97,7 @@ We use ``position: relative`` to manually position the quotation marks and the q
     }
 ```
 
-![alt text](../images/img46.png)
+![alt text](../../images/img46.png)
 
 ### Absolute position
 
@@ -148,7 +148,7 @@ And we do have one : ``position: absolute``.
     }
 ```
 
-![alt text](../images/img49.png)
+![alt text](../../images/img49.png)
 
 In ``position: absolute``, we specify how much distant an element should be from a position. ``position: relative``, on the other hand, behaves similar to `margin` and `padding`.
 

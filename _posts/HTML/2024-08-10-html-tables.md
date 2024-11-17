@@ -73,7 +73,7 @@ Rows are made using the ``<tr>`` tag [literally means table row]. These contains
 
 Now our table will look like this :
 
-![alt text](../images/img24.png)
+![alt text](../../images/img24.png)
 
 Our table looks neat, but not very descriptive. How do we fix that?
 
@@ -111,7 +111,7 @@ Now let's modify our table to show proper headers :
 </table>
 ```
 
-![alt text](../images/img25.png)
+![alt text](../../images/img25.png)
 
 Our table now looks ready! I've added another row in here to make it extra ready.
 
@@ -143,7 +143,7 @@ You notice a thing - row 1 and row 2 share a common artist and album. So why not
 </table>
 ```
 
-![alt text](../images/img26.png)
+![alt text](../../images/img26.png)
 
 Notice how I made the artist and the album 'flow' over to the next row and deleted the previously-existing cells in the 'The Days' row.
 
@@ -196,7 +196,7 @@ Finally, we'd use the ``<tfoot>`` tag to create our footer. This is where we add
   </table>
 ```
 
-![alt text](../images/img28.png)
+![alt text](../../images/img28.png)
 
 ### Styling our table
 
@@ -261,7 +261,7 @@ Instead of wasting our time with applying CSS styles to each ``<td>``, we'd use 
 </table>
 ```
 
-![alt text](../images/img27.png)
+![alt text](../../images/img27.png)
 
 ``<col>`` elements are contained within the ``<colgroup>``. Each ``<col>`` affects a column, so we've three of them for our three columns.
 

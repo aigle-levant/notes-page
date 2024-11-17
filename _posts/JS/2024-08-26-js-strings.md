@@ -228,5 +228,3 @@ console.log(output);
 ## Prompting users
 
 Sometimes you'll need to ask user for input and produce output accordingly. For this, you would use `prompt()`.
-
-
