@@ -13,7 +13,7 @@ This website is where I store my programming notes, hand-made by me to help me u
 * Java
 * OOPS
 * CSS
-* [in future] JS
+* JS
 * [in future] Python
 
 Do hit me up at @aiglelevant.gmail.com for any queries related to this page.
